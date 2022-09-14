@@ -4,7 +4,7 @@ import pyttsx3 as tts
 import sys
 import nltk
 from datetime import datetime
-from VoiceAssistent.simple_progect.volume.sound import Sound
+from Voice_Assistent.volume.voice import Sound
 from newsapi import NewsApiClient
 import webbrowser
 import os

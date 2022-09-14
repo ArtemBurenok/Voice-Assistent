@@ -1,0 +1,58 @@
+{"intents": [
+  {
+    "tag": "greeting",
+    "patterns": ["Hello", "Hello, how are you?"],
+    "responses": ["Hello, creator"]
+  },
+  {
+    "tag": "name_bot",
+    "patterns": ["What is your name?", "Your name"],
+    "responses": [""]
+  },
+  {
+    "tag": "find_location",
+    "patterns": ["Location", "Find location", "Maps"],
+    "responses": [""]
+  },
+  {
+    "tag": "youtube",
+    "patterns": ["Youtube", "Show me video", "Video"],
+    "responses": [""]
+  },
+  {
+    "tag": "news",
+    "patterns": ["News", "Show me news", "What's new in the world?"],
+    "responses": [""]
+  },
+  {
+    "tag": "name_creator",
+    "patterns": ["Who is your master?", "Who is your owner?", "Who is your creator?", "Owner"],
+    "responses": [""]
+  },
+  {
+    "tag": "time",
+    "patterns": ["Time", "What time is it now?"],
+    "responses": [""]
+  },
+  {
+    "tag": "date",
+    "patterns": ["Date", "What day is it?", "What day is it today?"],
+    "responses": [""]
+  },
+  {
+    "tag": "change_volume",
+    "patterns": ["Change volume", "Volume is high", "Volume is low", "Very loud"],
+    "responses": [""]
+  },
+  {
+    "tag": "search_internet",
+    "patterns": ["Internet", "Let's search information", "I need to internet", "Connect to internet"],
+    "responses": [""]
+  },
+  {
+    "tag": "exit",
+    "patterns": ["Bye", "Stop", "Goodbye"],
+    "responses": [""]
+  }
+]
+}
